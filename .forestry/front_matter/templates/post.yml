@@ -2,6 +2,11 @@
 label: post
 hide_body: false
 fields:
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
 - name: title
   label: Title
   type: text
@@ -14,11 +19,6 @@ fields:
 - name: date
   label: Publish Date
   type: datetime
-  hidden: false
-  default: ''
-- name: tags
-  label: Tags
-  type: tag_list
   hidden: false
   default: ''
 - type: file
