@@ -32,6 +32,11 @@ sections:
   templates:
   - project
 - type: document
+  path: single_page
+  label: A single page
+  match: "**/*"
+  read_only: false
+- type: document
   path: _data/information.yml
   label: Contact Information
 upload_dir: uploads
